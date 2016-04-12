@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_height="wrap_content"
+     android:layout_width="match_parent"
+     >
+     
+     <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="#66666666"
+        />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="#FFF"
+    android:layout_marginTop="20dp"
+    android:layout_marginBottom="20dp"
+ >
+    <TextView
+        style="@style/SearchMore"
+		android:layout_marginLeft="40dp"
+		android:layout_marginRight="5dp"
+        android:text="发件人" 
+        android:id="@+id/act_mail_send_btn"/>
+
+    <TextView
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+		style="@style/SearchMore"
+        android:text="收件人"
+        android:id="@+id/act_mail_load_btn" />
+
+    <TextView
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="40dp"
+        android:layout_weight="1"
+		style="@style/SearchMore"
+        android:text="主题"
+        android:id="@+id/act_mail_theme_btn" />
+
+</LinearLayout>
+</LinearLayout>
